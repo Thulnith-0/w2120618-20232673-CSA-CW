@@ -8,7 +8,7 @@ The system runs on an embedded Grizzly server and uses an in-memory data store t
 
 ## Demo Video
 
-(Insert your video link here)
+https://youtu.be/Jplux9mE_Jg
 
 ---
 
