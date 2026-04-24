@@ -6,13 +6,13 @@ The system runs on an embedded Grizzly server and uses an in-memory data store t
 
 ---
 
-## 🎥 Demo Video
+## Demo Video
 
 (Insert your video link here)
 
 ---
 
-## 📡 API Overview
+## API Overview
 
 Base URL:
 http://localhost:8080/api/v1
@@ -39,7 +39,7 @@ http://localhost:8080/api/v1
 
 ---
 
-## ⚙️ Build and Run
+## Build and Run
 
 Run the following command:
 
@@ -50,7 +50,7 @@ http://localhost:8080/api/v1
 
 ---
 
-## 🧱 Design Notes
+## Design Notes
 
 - The API follows a hierarchical structure:
   rooms → sensors → readings  
@@ -64,7 +64,7 @@ http://localhost:8080/api/v1
 
 ---
 
-## 🚧 Business Rules
+## Business Rules
 
 - A room cannot be deleted if it has sensors → 409 Conflict  
 - A sensor must be linked to an existing room → 422 Unprocessable Entity  
@@ -73,7 +73,7 @@ http://localhost:8080/api/v1
 
 ---
 
-## 🧪 Example Requests
+## Example Requests
 
 Get all rooms:
 curl -i http://localhost:8080/api/v1/rooms
@@ -90,7 +90,7 @@ curl -i -X POST http://localhost:8080/api/v1/sensors/TEMP-001/readings \
 
 ---
 
-## ❗ Error Handling
+## Error Handling
 
 | Code | Description |
 |------|------------|
@@ -104,7 +104,7 @@ curl -i -X POST http://localhost:8080/api/v1/sensors/TEMP-001/readings \
 
 ---
 
-## 🧠 Key Features
+## Key Features
 
 - RESTful API design  
 - Nested resource handling  
@@ -115,7 +115,7 @@ curl -i -X POST http://localhost:8080/api/v1/sensors/TEMP-001/readings \
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 Thulnith Perera  
 Student ID: w2120618  
